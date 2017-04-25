@@ -37,7 +37,7 @@ DarcyPressure::DarcyPressure(const InputParameters & parameters) :
     Diffusion(parameters),
 
     // Get the parameters from the input file
-    _permeability(getParam<Real>("permeability")),
+    _permeability(getParam<Real>("permeability")), //getParam means get from the input file
     _viscosity(getParam<Real>("viscosity"))
 {
 }

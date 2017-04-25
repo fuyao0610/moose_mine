@@ -38,8 +38,10 @@
   [./steel]
     type = GenericConstantMaterial
     block = 0
-    prop_names = thermal_conductivity
-    prop_values = 18 # K: (W/m*K) from wikipedia @296K
+#    prop_names = 'conductivity density'	
+#    prop_values = '0.01 200'
+     prop_names = thermal_conductivity
+     prop_values = 18 # K: (W/m*K) from wikipedia @296K
   [../]
 []
 

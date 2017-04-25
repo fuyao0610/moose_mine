@@ -61,4 +61,8 @@ DarcyVelocity::computeValue()
   // Note that getting a particular component of a gradient is done using the
   // parenthesis operator
   return -(_permeability[_qp] / _viscosity[_qp]) * _pressure_gradient[_qp](_component);
+
 }
+
+
+
